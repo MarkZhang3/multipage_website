@@ -1,0 +1,88 @@
+/*header*/
+
+/*nav bar*/
+.topnav {
+    padding: 10px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #66FCF1;
+    text-align: center;
+    padding: 5px 18px;
+    text-decoration: none;
+    border: 1px solid;
+    
+}
+
+.topnav a.right{
+    float: right;
+}
+
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(#333, #337);
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+}
+
+/*body*/
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-black-texture-information-technology-background-image_178761.jpg);
+}
+
+h2 {
+    display:inline-block;
+    color: #66FCF1;
+    vertical-align: middle;
+    font-size: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+div.row {
+    width: 1600px;
+    align-self: center;
+}
+
+div.column {
+    float:left;
+    max-width: 50%;
+}
+
+img{
+    padding-top: 130px;
+    width: 400px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+h4{
+    font-size:20px;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #333;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+  
