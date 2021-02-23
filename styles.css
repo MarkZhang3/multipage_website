@@ -1,8 +1,8 @@
 /*header*/
 .header {
-    padding: 80px;
+    padding: 90px;
     text-align: center;
-    background-image: url();
+    background-color: #333;
     color: #66FCF1;
 }
 
@@ -76,19 +76,30 @@ h3{
 }
 
 h4{
+    padding: 20px;
+    padding-bottom: 0px;
     font-size:20px;
+    color: #66FCF1;
 }
 
 p{
+    padding: 20px;
     color: white;
     font-size: 17px;
     line-height: 1.5;
+}
+
+li{
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    line-height: 1.5; 
 }
 
 div.transbox {
     margin: 30px;
     background-color: #333;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.8;
 }
   
